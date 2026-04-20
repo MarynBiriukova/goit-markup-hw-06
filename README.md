@@ -1,3 +1,3 @@
 # goit-markup-hw-05
 
-5 HW FullStack Developer / 5. Модуль 5. Елементи форм
+6 HW FullStack Developer / 6. Модуль 6. Адаптивний дизайн

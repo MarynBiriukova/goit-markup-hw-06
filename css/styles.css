@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding: 8px 0px;
+    /*padding: 0 0 8px;*/
 }
 
 .text{
@@ -545,6 +545,13 @@ h1, h2, h3, h4, h5, h6, p{
     row-gap: 72px;
 }
 
+.li-features{
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .features-rect {
     border: 1px solid #8E8F99;
     border-radius: 4px;
@@ -572,6 +579,7 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    /*padding: 0;*/
 }
 .li-features .text{
     font-family: "Roboto Medium", sans-serif;
@@ -637,7 +645,7 @@ h1, h2, h3, h4, h5, h6, p{
             font-size: 20px;
             line-height: 1.2;
             letter-spacing: 0.02em;
-            padding: 8px 0px;
+            /*padding: 8px 0px;*/
         }
 
         .li-features .text {
@@ -651,7 +659,7 @@ h1, h2, h3, h4, h5, h6, p{
 .team-container {
   /*  max-width: 320px;
     width: 100%;*/
-    padding: 28px;
+    padding: 0 28px;
     margin: 0 auto;
 
 
@@ -686,6 +694,9 @@ h1, h2, h3, h4, h5, h6, p{
 .cont{
     text-align: center;
     padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .cont-ss{
@@ -695,7 +706,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .cont .cont-ss{
     gap: 24px;
-    padding-top: 8px;
+    /*padding-top: 8px;*/
 }
 
 .cont-a{
@@ -794,6 +805,9 @@ h1, h2, h3, h4, h5, h6, p{
     border-bottom: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .portfolio-wrapper{
@@ -901,15 +915,30 @@ h1, h2, h3, h4, h5, h6, p{
     text-align: center;
 }
 
+.footer-logo {
+    /*display: inline-block;*/
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /*margin-right: auto;*/
+}
+
 .footer-text{
     letter-spacing: 0.02em;
     max-width: 288px;
-    padding-top: 16px;
+    /*padding-top: 16px;*/
     text-align: left;
 }
 
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
 .social .cont-ss{
-    padding-top: 16px;
+    /*padding-top: 16px;*/
     gap: 16px;
 }
 
@@ -1053,10 +1082,10 @@ h1, h2, h3, h4, h5, h6, p{
         max-width: 264px;
     }
 
-    .footer-logo.logo {
-            display: inline-block;
-            margin-right: auto;
+    .footer-logo .logo{
+        text-align: left;
     }
+
 
     .sm {
         text-align: left;
