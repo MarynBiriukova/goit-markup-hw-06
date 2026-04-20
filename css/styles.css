@@ -477,19 +477,29 @@ h1, h2, h3, h4, h5, h6, p{
 .mob-header-contacts{
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 24px;
 }
 
-.mob-link{
+.mob-link.mail{
 
-    font-family: "Roboto Regular", sans-serif;
+    font-family: "Roboto Medium", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.mob-link.tel {
+    font-family: "Roboto Medium",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #4D5AE5;
 }
 
 .mob-contacts{
@@ -1120,7 +1130,9 @@ h1, h2, h3, h4, h5, h6, p{
        margin-right: 80px;
        
    }
-
+   .subscribe{
+        margin-left: auto;
+    }
 }
 
 /**************************************************************/
